@@ -22,23 +22,29 @@ const (
 	// Raspbian is
 	Raspbian = "raspbian"
 
-	// Ubuntu14 is Ubuntu Trusty
-	Ubuntu14 = "trusty"
+	// Ubuntu1404 is Ubuntu Trusty
+	Ubuntu1404 = "trusty"
 
-	// Ubuntu16 is Ubuntu Xenial
-	Ubuntu16 = "xenial"
+	// Ubuntu1604 is Ubuntu Xenial
+	Ubuntu1604 = "xenial"
 
-	// Ubuntu18 is Ubuntu Bionic
-	Ubuntu18 = "bionic"
+	// Ubuntu1804 is Ubuntu Bionic
+	Ubuntu1804 = "bionic"
 
-	// Ubuntu19 is Eoan Ermine
-	Ubuntu19 = "eoan"
+	// Ubuntu1910 is Eoan Ermine
+	Ubuntu1910 = "eoan"
 
-	// Ubuntu20 is Focal Fossa
-	Ubuntu20 = "focal"
+	// Ubuntu2004 is Focal Fossa
+	Ubuntu2004 = "focal"
 
-	// Ubuntu21 is Hirsute Hippo
-	Ubuntu21 = "hirsute"
+	// Ubuntu2010 is Groovy Gorilla
+	Ubuntu2010 = "groovy"
+
+	// Ubuntu2104 is Hirsute Hippo
+	Ubuntu2104 = "hirsute"
+
+	// Ubuntu2110 is Impish Indri
+	Ubuntu2110 = "impish"
 
 	// Debian7 is wheezy
 	Debian7 = "wheezy"
