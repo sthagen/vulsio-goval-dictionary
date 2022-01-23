@@ -126,7 +126,7 @@ if args.ostype == 'debian':
             f'Failed to diff_response..., err: This Release Version({args.release}) does not support test mode')
         raise NotImplementedError
 elif args.ostype == 'ubuntu':
-    if len(list(set(args.release) - set(['14', '16', '18', '19', '20']))) > 0:
+    if len(list(set(args.release) - set(['14.04', '16.04', '18.04', '19.10', '20.04', '20.10', '21.04', '21.10']))) > 0:
         logger.error(
             f'Failed to diff_response..., err: This Release Version({args.release}) does not support test mode')
         raise NotImplementedError
